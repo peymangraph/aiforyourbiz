@@ -1,0 +1,528 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI For Your Biz | Bespoke Automation Studio</title>
+    <meta
+      name="description"
+      content="Activate AI across your organisation with tailored automations, conversational assistants, and data insights built around the way you work."
+    />
+    <meta property="og:title" content="AI For Your Biz" />
+    <meta
+      property="og:description"
+      content="Automation that feels bespoke. We architect AI copilots, integrations, and analytics that unlock new growth."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="/src/styles/main.css" />
+  </head>
+  <body class="bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-900 text-slate-100 antialiased">
+    <div class="relative min-h-screen overflow-hidden flex flex-col">
+      <div class="moving-lines" aria-hidden="true">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <nav class="w-full px-6 py-4 md:px-10 bg-white/5 backdrop-blur-xl border-b border-white/10 sticky top-0 z-30">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+          <a href="#" class="flex items-center gap-3 text-lg font-semibold tracking-tight text-white">
+            <span class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-sky-500/20 text-sky-300 font-semibold">AI</span>
+            For Your Biz
+          </a>
+          <div class="hidden md:flex items-center gap-8 text-sm text-slate-200">
+            <a href="#services" class="hover:text-white transition">Services</a>
+            <a href="#approach" class="hover:text-white transition">Approach</a>
+            <a href="#impact" class="hover:text-white transition">Impact</a>
+            <a href="#assistant" class="hover:text-white transition">Assistant</a>
+          </div>
+          <a
+            href="#contact"
+            class="hidden md:inline-flex items-center gap-2 rounded-full bg-sky-500/90 px-5 py-2 text-sm font-semibold text-white shadow-lg shadow-sky-500/30 transition hover:bg-sky-400"
+          >
+            Book A Discovery Call
+          </a>
+          <button
+            id="mobile-nav-toggle"
+            class="md:hidden inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 text-slate-200"
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+        <div id="mobile-nav" class="md:hidden mt-4 hidden flex-col gap-4 text-sm text-slate-200">
+          <a href="#services" class="rounded-xl border border-white/10 bg-white/5 px-4 py-3">Services</a>
+          <a href="#approach" class="rounded-xl border border-white/10 bg-white/5 px-4 py-3">Approach</a>
+          <a href="#impact" class="rounded-xl border border-white/10 bg-white/5 px-4 py-3">Impact</a>
+          <a href="#assistant" class="rounded-xl border border-white/10 bg-white/5 px-4 py-3">Assistant</a>
+          <a href="#contact" class="rounded-xl border border-sky-500/40 bg-sky-500/20 px-4 py-3 font-semibold text-white">Book A Discovery Call</a>
+        </div>
+      </nav>
+
+      <main class="flex-1">
+        <header class="relative px-6 pt-20 pb-20 md:pt-24 md:pb-24">
+          <div class="max-w-6xl mx-auto grid gap-12 lg:grid-cols-[1.1fr_1fr] items-center">
+            <div class="space-y-8">
+              <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.4em] text-sky-300">
+                Bespoke AI Playbooks
+              </span>
+              <h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight text-white">
+                AI that feels hand-crafted for how your business actually runs.
+              </h1>
+              <p class="text-lg text-slate-200 md:text-xl max-w-xl">
+                We architect human-centered automations, conversational assistants, and data copilots that plug into your existing tech and start unlocking wins in weeks—not quarters.
+              </p>
+              <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
+                <a
+                  href="#contact"
+                  class="inline-flex items-center justify-center rounded-full bg-sky-500 px-6 py-3 text-base font-semibold text-white shadow-lg shadow-sky-500/30 transition hover:bg-sky-400 hover:shadow-sky-400/40"
+                >
+                  Build My AI Roadmap
+                </a>
+                <a
+                  href="#assistant"
+                  class="inline-flex items-center justify-center rounded-full border border-white/20 px-6 py-3 text-base font-semibold text-slate-200 transition hover:border-white hover:text-white"
+                >
+                  See the AI Concierge
+                </a>
+              </div>
+              <div class="grid gap-3 sm:grid-cols-2">
+                <div class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-slate-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-emerald-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m5 12 5 5L20 7" />
+                  </svg>
+                  Autonomous lead triage & follow-up sequences
+                </div>
+                <div class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-slate-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-emerald-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m5 12 5 5L20 7" />
+                  </svg>
+                  Real-time analytics narrating what your data means
+                </div>
+                <div class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-slate-200">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-emerald-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m5 12 5 5L20 7" />
+                  </svg>
+                  Hands-on enablement so teams actually adopt AI tools
+                </div>
+              </div>
+              <div class="flex flex-wrap items-center gap-6 pt-2 text-xs uppercase tracking-[0.3em] text-slate-400">
+                <span>Trusted by teams at</span>
+                <div class="flex items-center gap-6 text-slate-300 text-sm tracking-[0.2em]">
+                  <span class="opacity-70">PulseCRM</span>
+                  <span class="opacity-70">Northwind Logistics</span>
+                  <span class="opacity-70">Sundial Health</span>
+                </div>
+              </div>
+            </div>
+            <div class="relative">
+              <div class="absolute -top-16 -right-6 h-40 w-40 rounded-full bg-sky-400/30 blur-3xl"></div>
+              <div class="absolute bottom-10 -left-6 h-32 w-32 rounded-full bg-purple-500/20 blur-3xl"></div>
+              <div class="relative rounded-[32px] border border-white/10 bg-white/5 p-8 shadow-[0_40px_80px_-40px_rgba(14,116,144,0.65)] backdrop-blur-xl">
+                <div class="flex items-center justify-between text-xs uppercase tracking-[0.3em] text-slate-300">
+                  <span>Operational Intelligence</span>
+                  <span class="inline-flex items-center gap-1 text-emerald-300">
+                    <span class="status-dot"></span>
+                    Live
+                  </span>
+                </div>
+                <h2 class="mt-6 text-2xl font-semibold text-white">AI Concierge Dashboard</h2>
+                <p class="mt-3 text-sm leading-relaxed text-slate-300">
+                  A single interface orchestrating ticket replies, knowledge lookups, CRM enrichments, and decision-ready analytics.
+                </p>
+                <div class="mt-8 grid grid-cols-2 gap-6">
+                  <div class="rounded-2xl border border-white/10 bg-slate-900/40 p-4 text-center">
+                    <p class="text-4xl font-semibold text-white" data-stat-preview>92%</p>
+                    <p class="mt-2 text-xs uppercase tracking-[0.3em] text-slate-400">FAQ deflection</p>
+                  </div>
+                  <div class="rounded-2xl border border-white/10 bg-slate-900/40 p-4 text-center">
+                    <p class="text-4xl font-semibold text-white" data-stat-preview>14min</p>
+                    <p class="mt-2 text-xs uppercase tracking-[0.3em] text-slate-400">Average launch</p>
+                  </div>
+                </div>
+                <div class="mt-8 space-y-4 rounded-3xl border border-white/10 bg-slate-900/60 p-4">
+                  <div class="flex gap-3">
+                    <div class="h-9 w-9 shrink-0 rounded-full bg-sky-500/30 text-sky-200 flex items-center justify-center font-semibold">YT</div>
+                    <div class="text-sm text-slate-200">
+                      <p class="font-semibold text-white">YouTrack Support</p>
+                      <p class="text-xs text-slate-400">"Tickets tagged and routed in seconds now."</p>
+                    </div>
+                  </div>
+                  <div class="flex gap-3">
+                    <div class="h-9 w-9 shrink-0 rounded-full bg-emerald-500/30 text-emerald-200 flex items-center justify-center font-semibold">DW</div>
+                    <div class="text-sm text-slate-200">
+                      <p class="font-semibold text-white">Dwell Real Estate</p>
+                      <p class="text-xs text-slate-400">"Hot leads receive market updates instantly."</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section id="services" class="relative px-6 py-20">
+          <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+              <div class="max-w-2xl">
+                <h2 class="text-3xl md:text-4xl font-semibold text-white">Launch AI experiences that feel tailored and trustworthy.</h2>
+                <p class="mt-4 text-base text-slate-200">
+                  From the first automation to enterprise-grade AI ecosystems, we co-design implementations your team can own. Every engagement includes strategy, build, enablement, and optimization loops.
+                </p>
+              </div>
+              <a href="#contact" class="inline-flex h-11 items-center justify-center rounded-full border border-white/10 px-5 text-sm font-semibold text-slate-200 transition hover:border-white hover:text-white">
+                Download capabilities deck →
+              </a>
+            </div>
+            <div class="mt-12 grid gap-6 md:grid-cols-3">
+              <article class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-8 shadow-lg shadow-slate-900/40 transition duration-300 hover:-translate-y-2 hover:border-sky-400/50 hover:bg-sky-500/10">
+                <div class="glass-orb bg-sky-500/30"></div>
+                <h3 class="text-2xl font-semibold text-white">Conversational Concierges</h3>
+                <p class="mt-4 text-sm text-slate-200">
+                  Custom chat, voice, and SMS assistants that understand your playbooks, escalate when needed, and keep transcripts synced with your CRM.
+                </p>
+                <ul class="mt-6 space-y-3 text-sm text-slate-300">
+                  <li class="flex items-start gap-3">
+                    <span class="checkmark"></span>
+                    Tailored tone matching your brand voice
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="checkmark"></span>
+                    Action triggers to book calls, create tickets, or invoice
+                  </li>
+                </ul>
+              </article>
+              <article class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-8 shadow-lg shadow-slate-900/40 transition duration-300 hover:-translate-y-2 hover:border-purple-400/50 hover:bg-purple-500/10">
+                <div class="glass-orb bg-purple-500/30"></div>
+                <h3 class="text-2xl font-semibold text-white">Data Co-Pilots & Insights</h3>
+                <p class="mt-4 text-sm text-slate-200">
+                  Interactive dashboards that narrate the story in your data, alert your team, and suggest next-best actions in natural language.
+                </p>
+                <ul class="mt-6 space-y-3 text-sm text-slate-300">
+                  <li class="flex items-start gap-3">
+                    <span class="checkmark"></span>
+                    Consolidated analytics across Airtable, HubSpot, Notion
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="checkmark"></span>
+                    Executive briefs delivered in Slack or email
+                  </li>
+                </ul>
+              </article>
+              <article class="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-8 shadow-lg shadow-slate-900/40 transition duration-300 hover:-translate-y-2 hover:border-emerald-400/50 hover:bg-emerald-500/10">
+                <div class="glass-orb bg-emerald-500/30"></div>
+                <h3 class="text-2xl font-semibold text-white">Workflow Automations</h3>
+                <p class="mt-4 text-sm text-slate-200">
+                  End-to-end automation that stitches together your stack—from intake forms to fulfillment and renewals—with governance and monitoring built in.
+                </p>
+                <ul class="mt-6 space-y-3 text-sm text-slate-300">
+                  <li class="flex items-start gap-3">
+                    <span class="checkmark"></span>
+                    Human-in-the-loop approvals where it matters
+                  </li>
+                  <li class="flex items-start gap-3">
+                    <span class="checkmark"></span>
+                    Continuous optimization via performance sprints
+                  </li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="approach" class="relative px-6 py-20 bg-white/5">
+          <div class="max-w-6xl mx-auto grid gap-10 lg:grid-cols-[1fr_1.3fr] items-start">
+            <div>
+              <h2 class="text-3xl md:text-4xl font-semibold text-white">Our approach keeps humans at the center.</h2>
+              <p class="mt-4 text-base text-slate-200">
+                We combine discovery workshops, rapid prototyping, governance frameworks, and enablement tracks so AI becomes a dependable teammate—not another tool your team ignores.
+              </p>
+              <div class="mt-8 space-y-5 rounded-3xl border border-white/10 bg-slate-950/60 p-6">
+                <div class="flex gap-3">
+                  <span class="badge">1</span>
+                  <div>
+                    <p class="font-semibold text-white">Blueprint</p>
+                    <p class="text-sm text-slate-300">Identify friction, opportunities, and success metrics.</p>
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <span class="badge">2</span>
+                  <div>
+                    <p class="font-semibold text-white">Co-build</p>
+                    <p class="text-sm text-slate-300">Pair your subject-matter experts with our AI architects.</p>
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <span class="badge">3</span>
+                  <div>
+                    <p class="font-semibold text-white">Enable</p>
+                    <p class="text-sm text-slate-300">Train people, craft playbooks, and design guardrails.</p>
+                  </div>
+                </div>
+                <div class="flex gap-3">
+                  <span class="badge">4</span>
+                  <div>
+                    <p class="font-semibold text-white">Optimize</p>
+                    <p class="text-sm text-slate-300">Monitor adoption, measure ROI, and iterate monthly.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="timeline-step">
+                <span class="timeline-dot"></span>
+                <h3>Embedded strategy squads</h3>
+                <p>We sit inside your existing workflows, mapping automations to live systems rather than creating isolated prototypes.</p>
+              </div>
+              <div class="timeline-step">
+                <span class="timeline-dot"></span>
+                <h3>Human + AI collaboration rituals</h3>
+                <p>Weekly working sessions keep humans in the loop while models learn from every real-world interaction.</p>
+              </div>
+              <div class="timeline-step">
+                <span class="timeline-dot"></span>
+                <h3>Governance baked in from day one</h3>
+                <p>Access controls, audit trails, and compliance-ready documentation arrive with your first deployment.</p>
+              </div>
+              <div class="timeline-step">
+                <span class="timeline-dot"></span>
+                <h3>Change adoption playbooks</h3>
+                <p>We deliver enablement materials, train-the-trainer programs, and executive scorecards.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="impact" class="relative px-6 py-20">
+          <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+              <h2 class="text-3xl md:text-4xl font-semibold text-white">Ship measurable impact in the first 90 days.</h2>
+              <p class="max-w-xl text-base text-slate-200">Our clients see fast time-to-value because we deploy to high-leverage workflows first, then layer intelligence across the customer journey.</p>
+            </div>
+            <div class="mt-12 grid gap-6 md:grid-cols-4">
+              <div class="stat-card">
+                <span class="stat-value" data-stat-target="65" data-stat-suffix="%">0%</span>
+                <p class="stat-label">Average lift in qualified leads</p>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value" data-stat-target="48" data-stat-suffix="hrs">0hrs</span>
+                <p class="stat-label">Manual hours eliminated each week</p>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value" data-stat-target="4" data-stat-suffix="x">0x</span>
+                <p class="stat-label">Faster response across support channels</p>
+              </div>
+              <div class="stat-card">
+                <span class="stat-value" data-stat-target="97" data-stat-suffix="%">0%</span>
+                <p class="stat-label">Customer satisfaction maintained or improved</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="testimonials" class="relative px-6 py-20 bg-white/5">
+          <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+              <div>
+                <span class="inline-flex rounded-full border border-white/10 bg-white/10 px-4 py-1 text-xs font-semibold uppercase tracking-[0.4em] text-rose-200">Client wins</span>
+                <h2 class="mt-4 text-3xl md:text-4xl font-semibold text-white">Signals from the teams we partner with.</h2>
+              </div>
+              <div class="flex items-center gap-2">
+                <button class="testimonial-nav" data-testimonial-nav="prev" aria-label="Previous testimonial">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m15 18-6-6 6-6" />
+                  </svg>
+                </button>
+                <button class="testimonial-nav" data-testimonial-nav="next" aria-label="Next testimonial">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m9 18 6-6-6-6" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="mt-12 grid gap-6 md:grid-cols-3" role="list">
+              <article class="testimonial-card is-active" data-testimonial role="listitem">
+                <div class="testimonial-glow"></div>
+                <p class="testimonial-quote">“Our sales development reps reclaimed entire days. The assistant qualifies leads, books meetings, and hands off just the strategic conversations.”</p>
+                <div class="testimonial-author">
+                  <span class="avatar">LC</span>
+                  <div>
+                    <p class="name">Lena Carter</p>
+                    <p class="title">VP of Growth, Northwind Logistics</p>
+                  </div>
+                </div>
+              </article>
+              <article class="testimonial-card" data-testimonial role="listitem">
+                <div class="testimonial-glow"></div>
+                <p class="testimonial-quote">“The analytics co-pilot doesn’t just report numbers—it interprets them and surfaces risks before we spot them in the weekly syncs.”</p>
+                <div class="testimonial-author">
+                  <span class="avatar">JM</span>
+                  <div>
+                    <p class="name">Jordan Miles</p>
+                    <p class="title">COO, Sundial Health</p>
+                  </div>
+                </div>
+              </article>
+              <article class="testimonial-card" data-testimonial role="listitem">
+                <div class="testimonial-glow"></div>
+                <p class="testimonial-quote">“We shipped a conversational concierge in 21 days. It now handles 78% of support volume with CSAT at an all-time high.”</p>
+                <div class="testimonial-author">
+                  <span class="avatar">RB</span>
+                  <div>
+                    <p class="name">Riya Bhatt</p>
+                    <p class="title">Head of Experience, Dwell Real Estate</p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="assistant" class="relative px-6 py-20">
+          <div class="max-w-6xl mx-auto grid gap-12 lg:grid-cols-[1fr_1.1fr] items-start">
+            <div class="space-y-6">
+              <span class="inline-flex rounded-full border border-white/10 bg-white/10 px-4 py-1 text-xs font-semibold uppercase tracking-[0.4em] text-sky-200">AI concierge</span>
+              <h2 class="text-3xl md:text-4xl font-semibold text-white">Experience the discovery assistant your leads meet first.</h2>
+              <p class="text-base text-slate-200">
+                Drop a question or choose a prompt below. The assistant collects the right intel, qualifies in real time, and can sync straight into your CRM. We’ll tailor flows, tone, and escalation rules around your brand.
+              </p>
+              <ul class="space-y-3 text-sm text-slate-300">
+                <li class="flex items-center gap-3">
+                  <span class="checkmark"></span>
+                  Guided handoff with human reps when high-intent triggers fire
+                </li>
+                <li class="flex items-center gap-3">
+                  <span class="checkmark"></span>
+                  Knowledge grounding from your docs, wiki, and past chats
+                </li>
+                <li class="flex items-center gap-3">
+                  <span class="checkmark"></span>
+                  Analytics across every conversation so you know what prospects care about
+                </li>
+              </ul>
+            </div>
+            <div class="chat-shell">
+              <div class="flex items-center justify-between text-xs uppercase tracking-[0.3em] text-slate-400">
+                <span>Live AI Strategist</span>
+                <span class="inline-flex items-center gap-1 text-emerald-300">
+                  <span class="status-dot"></span>
+                  Online
+                </span>
+              </div>
+              <div
+                id="chat-box"
+                class="chat-box"
+                role="log"
+                aria-live="polite"
+                aria-label="Conversation with AI strategist"
+              ></div>
+              <p id="chat-status" class="chat-status" aria-live="polite"></p>
+              <div class="chat-prompts" aria-label="Quick prompts">
+                <button type="button" class="quick-prompt" data-prompt="Audit my customer onboarding and suggest quick wins." aria-label="Prompt: Audit customer onboarding">
+                  Audit onboarding
+                </button>
+                <button type="button" class="quick-prompt" data-prompt="Design an AI concierge that captures lead qualification data." aria-label="Prompt: Design AI concierge">
+                  AI concierge ideas
+                </button>
+                <button type="button" class="quick-prompt" data-prompt="Identify the highest-leverage automations for our sales-to-success handoff." aria-label="Prompt: Sales to success handoff">
+                  Sales → success
+                </button>
+              </div>
+              <form id="chat-form" class="chat-form" autocomplete="off">
+                <label for="user-input" class="sr-only">Your message</label>
+                <input
+                  id="user-input"
+                  type="text"
+                  name="message"
+                  placeholder="Ask how we can help you automate…"
+                  class="chat-input"
+                  required
+                />
+                <button type="submit" class="chat-submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="relative px-6 py-20">
+          <div class="max-w-6xl mx-auto rounded-[32px] border border-white/10 bg-gradient-to-br from-sky-500/20 via-transparent to-purple-500/10 p-10 shadow-[0_30px_80px_-40px_rgba(59,130,246,0.5)] backdrop-blur-xl">
+            <div class="grid gap-10 lg:grid-cols-[1.3fr_1fr] items-center">
+              <div>
+                <h2 class="text-3xl md:text-4xl font-semibold text-white">Ready to orchestrate AI across your customer journey?</h2>
+                <p class="mt-4 text-base text-slate-200">
+                  We’ll co-create a roadmap, build the first automations, and embed change management so your team stays excited. Tell us about your goals and we’ll schedule a strategy session.
+                </p>
+              </div>
+              <div class="grid gap-4 text-sm text-slate-200">
+                <div class="flex items-center gap-3">
+                  <span class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="m21 10-6.4 6.4a1.6 1.6 0 0 1-2.3 0L7 11" />
+                      <path d="m5 12-3-3 5-5 3 3" />
+                      <path d="m9 6 6 6" />
+                      <path d="m21 10-3-3" />
+                    </svg>
+                  </span>
+                  hello@aiforyourbiz.co
+                </div>
+                <div class="flex items-center gap-3">
+                  <span class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M2 8a6 6 0 0 1 6-6h8a6 6 0 0 1 6 6v8a6 6 0 0 1-6 6H8a6 6 0 0 1-6-6Z" />
+                      <path d="M7 9h10" />
+                      <path d="M7 15h5" />
+                    </svg>
+                  </span>
+                  Book a 30-minute roadmap workshop
+                </div>
+                <div class="flex items-center gap-3">
+                  <span class="contact-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M3 5h2" />
+                      <path d="M7 5h2" />
+                      <path d="M3 10h2" />
+                      <path d="M7 10h2" />
+                      <path d="M3 15h2" />
+                      <path d="M7 15h2" />
+                      <path d="M3 20h2" />
+                      <path d="M7 20h2" />
+                      <path d="m21 7-5 5 5 5" />
+                    </svg>
+                  </span>
+                  Implementation sprints start at $9.5K / month
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="px-6 py-8 border-t border-white/10 bg-slate-950/80 backdrop-blur-xl">
+        <div class="max-w-6xl mx-auto flex flex-col gap-3 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between">
+          <p>© 2025 AI For Your Biz. All rights reserved.</p>
+          <div class="flex gap-4">
+            <a href="#" class="hover:text-white">Privacy</a>
+            <a href="#" class="hover:text-white">Terms</a>
+            <a href="#contact" class="hover:text-white">Get in touch</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
